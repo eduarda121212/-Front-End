@@ -1,4 +1,4 @@
-##JLE Beauty – Documentação do Projeto
+JLE Beauty – Documentação do Projeto
 1. Descrição Geral
 O site JLE Beauty é uma plataforma institucional e comercial voltada para o setor da beleza. Seu objetivo é oferecer serviços personalizados e produtos capilares para diferentes tipos de cabelo, com uma navegação intuitiva e visual moderno. O projeto foi desenvolvido com foco na experiência do usuário, incorporando funcionalidades como geolocalização, pagamento via QR Code e gráficos interativos para análise de dados.
 
