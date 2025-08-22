@@ -1,59 +1,39 @@
 JLE Beauty – Documentação do Projeto
-Descrição Geral
+1. Descrição Geral
+O site JLE Beauty é uma plataforma institucional e comercial voltada para o setor da beleza. Seu objetivo é oferecer serviços personalizados e produtos capilares para diferentes tipos de cabelo, com uma navegação intuitiva e visual moderno. O projeto foi desenvolvido com foco na experiência do usuário, incorporando funcionalidades como geolocalização, pagamento via QR Code e gráficos interativos para análise de dados.
 
-JLE Beauty é um site institucional e comercial voltado para o universo da beleza, oferecendo serviços personalizados e produtos capilares para diferentes tipos de cabelo. O projeto foi desenvolvido com foco na experiência do usuário, combinando estética moderna, 
+2. Escopo
+O escopo do projeto contempla as seguintes funcionalidades principais:
 
-navegação intuitiva e funcionalidades práticas como geolocalização, pagamento via QR Code e visualização de dados com gráficos interativos.
+Página inicial com destaque visual dos serviços oferecidos
 
-Escopo
-O site contempla as seguintes funcionalidades:
+Catálogo de produtos com opção de compra direta
 
-Página inicial com destaque visual dos principais serviços
+Área de serviços com detalhes e contatos das profissionais
 
-Catálogo de produtos com opção de compra
-
-Área de serviços com detalhes e contatos dos profissionais
-
-Página institucional com localização via mapa interativo
+Página institucional com mapa interativo de localização
 
 Integração com APIs para funcionalidades avançadas
 
-Justificativa
-O projeto busca atender à demanda crescente por soluções digitais no setor de beleza, oferecendo uma plataforma acessível, funcional e visualmente atrativa. A presença online fortalece a marca JLE Beauty, facilita o agendamento de serviços, promove os produtos e melhora a comunicação com os clientes.
+3. Justificativa
+A criação do site JLE Beauty atende à necessidade de digitalização no setor de beleza, oferecendo uma solução acessível e eficiente para divulgação de serviços, venda de produtos e comunicação com clientes. A presença online fortalece a marca, amplia o alcance e facilita o agendamento de atendimentos, além de proporcionar uma experiência moderna e prática para o público.
 
-APIs Integradas
-Geolocalização: exibe a localização do salão diretamente no site, permitindo que o usuário trace rotas e identifique pontos de referência.
+4. Estrutura Visual do Site
+O site é dividido em cinco seções principais:
 
-QR Code para pagamento: cada produto pode ser adquirido via QR Code, facilitando pagamentos rápidos e seguros.
+4.1 Página Inicial Apresenta o menu com abas de navegação (Início, Produtos, Serviços, Contato, Sobre nós), imagens de destaque dos serviços (unhas, cabelos e penteados) e uma seção com botões “Ver detalhes” para cada serviço.
 
-Chart.js: utilizado para exibir gráficos de desempenho, como vendas por categoria ou evolução de serviços ao longo do tempo.
+4.2 Produtos Exibe um catálogo dividido entre cabelos lisos e cacheados, com produtos como shampoo, condicionador, máscara, óleo, gelatina e tônico. Cada item possui botão “Comprar” com integração ao QR Code.
 
-Estrutura Visual do Site
-Página Inicial
-Menu com abas: Início, Produtos, Serviços, Contato, Sobre nós
+4.3 Serviços Organiza os serviços em três categorias: Manicure, Cabelos e Maquiagem. Cada serviço possui botão “Ver detalhes” e há uma apresentação das profissionais com nome e contato direto.
 
-Destaques visuais dos serviços: unhas, cabelos e penteados
+4.4 Sobre Nós Contém informações institucionais e um espaço reservado para a API de geolocalização, exibindo o endereço do salão: Av. Frederico Dihl, 475 – Aparecida, Alvorada.
 
-Seção de serviços com botões “Ver detalhes”
+5. APIs Integradas
+O projeto utiliza três APIs principais:
 
-Produtos
-Catálogo dividido entre cabelos lisos e cacheados
+Geolocalização: exibe a localização do salão no site, permitindo que o usuário trace rotas e identifique pontos de referência
 
-Produtos como shampoo, condicionador, máscara, óleo, gelatina e tônico
+QR Code para pagamento: cada produto pode ser adquirido via QR Code, facilitando pagamentos rápidos e seguros
 
-Botões “Comprar” com integração ao QR Code
-
-Serviços
-Categorias: Manicure, Cabelos, Maquiagem
-
-Botões “Ver detalhes” para cada serviço
-
-Apresentação das profissionais com nome e contato
-
-Sobre Nós
-Informações institucionais
-
-Mapa interativo com API de geolocalização
-
-Endereço: Av. Frederico Dihl, 475 – Aparecida, Alvorada
-
+Chart.js: utilizado para exibir gráficos de desempenho, como vendas por categoria ou evolução de serviços ao longo do tempo
