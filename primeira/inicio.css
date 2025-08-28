@@ -1,0 +1,249 @@
+/* Layout base com footer fixo */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdf6f9;
+  color: #3d1f24;
+}
+
+main {
+  flex: 1;
+}
+
+/* Fontes especiais */
+h1, h2, h3, .logo {
+  font-family: 'Cinzel', serif;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #5A1E2D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.login-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Linha branca fixa na aba ativa */
+nav a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+/* Linha branca suave ao passar o mouse */
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #F8E9F0;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #5A1E2D;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #7A4A4A;
+}
+
+/* Galeria */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 220px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Botão CTA */
+.cta {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.cta button {
+  background-color: #5A1E2D;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Cards de serviços */
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h3 {
+  color: #5A1E2D;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #7A4A4A;
+  margin-bottom: 12px;
+}
+
+.card button {
+  background-color: #F8E9F0;
+  border: 1px solid #5A1E2D;
+  color: #5A1E2D;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Rodapé fixo */
+footer {
+  background-color: #5A1E2D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+.carousel {
+  max-width: 100%;
+  height: 400px; /* você pode ajustar esse valor */
+  overflow: hidden;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.carousel-container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: calc(600px * 3); /* 3 imagens */
+}
+
+.carousel-track img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(90, 30, 45, 0.8);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 10px 16px;
+  cursor: pointer;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+.cta {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.cta h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  color: #5A1E2D;
+  margin: 0;
+}

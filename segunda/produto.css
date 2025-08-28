@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdf6f9;
+  color: #3d1f24;
+}
+
+h1, .logo {
+  font-family: 'Cinzel', serif;
+}
+
+header {
+  background-color: #5A1E2D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+/* Linha branca fixa na aba ativa */
+nav a.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+/* Linha branca suave ao passar o mouse */
+nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 36px;
+  margin: 40px 0 20px;
+  color: #5A1E2D;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 30px;
+  column-gap: 30px;
+  padding: 0 40px 60px;
+}
+
+.product-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #3d1f24;
+  font-weight: 500;
+}
+
+.product-card button {
+  background-color: #5A1E2D;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.product-card button:hover {
+  background-color: #7a2e3f;
+}
+/* Rodapé fixo */
+footer {
+  background-color: #5A1E2D;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.cart-icon a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.cart-icon {
+  margin-left: 20px;
+}

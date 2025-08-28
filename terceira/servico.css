@@ -1,0 +1,236 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fdf6f9;
+  color: #5A1E2D;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #5A1E2D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+h1, .logo {
+  font-family: 'Cinzel', serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+nav a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.login-btn {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.layout {
+  flex: 1;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #5A1E2D;
+  color: white;
+  padding: 30px 20px;
+}
+
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #f8cfd8;
+  font-weight: 500;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.topbar {
+  background-color: #5A1E2D;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.topbar nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.topbar nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.page-title {
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  font-size: 32px;
+  margin: 40px 0 20px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 30px;
+  padding: 0 40px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.service-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.service-card button {
+  background-color: #5A1E2D;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.team-section {
+  text-align: center;
+  padding: 60px 40px;
+  background-color: #f8e9f0;
+}
+
+.team-section h2 {
+  font-family: 'Cinzel', serif;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 160px;
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #5A1E2D;
+}
+
+.team-member h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.team-member p {
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+footer {
+  background-color: #5A1E2D;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  flex: 1;
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background-color: #5A1E2D;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
