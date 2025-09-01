@@ -1,12 +1,18 @@
 document.querySelectorAll('.product-card button').forEach(button => {
   button.addEventListener('click', () => {
-    const productName = button.previousElementSibling.textContent;
-    const productImage = button.parentElement.querySelector('img').src;
+    const productCard = button.parentElement;
+    const productName = productCard.querySelector('p').textContent;
+    const productImage = productCard.querySelector('img').src;
+    const productPrice = productCard.querySelector('.price').textContent;
 
-    let cart = JSON.parse(localStorage.getItem('cart')) || [];
-    cart.push({ name: productName, image: productImage });
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart.push({
+      name: productName,
+      image: productImage,
+      price: productPrice
+    });
+
     localStorage.setItem('cart', JSON.stringify(cart));
-
     window.location.href = 'carrinho.html';
   });
 });
