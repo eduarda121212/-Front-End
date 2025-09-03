@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studio Belle - Serviços</title>
+  <title>JLE Beauty - Serviços</title>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="terceira/servico.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="main-content">
@@ -17,6 +18,9 @@
       <a href="servico.html">Serviços</a>
       <a href="sobre.html">Sobre nós</a>
     </nav>
+    <div class="cart-icon">
+    <a href="carrinho.html"><i class="fas fa-shopping-cart"></i></a>
+    </div>
   </header>
 
 
@@ -24,37 +28,37 @@
         <h1 class="page-title">SERVIÇOS</h1>
         <section class="service-grid">
           <div class="service-card">
-            <img src="terceira/Copilot_20250826_160816.png" alt="Corte Feminino" />
+            <img src="img/corte.png" alt="Corte Feminino" />
             <h3>Corte Feminino</h3>
             <p>Estilo, leveza e personalidade no seu visual.</p>
             <button>Agendar</button>
           </div>
           <div class="service-card">
-            <img src="terceira/Copilot_20250826_161109.png" alt="Coloração" />
+            <img src="img/coloração.png" alt="Coloração" />
             <h3>Coloração</h3>
             <p>Transforme seu tom com segurança e brilho.</p>
             <button>Agendar</button>
           </div>
           <div class="service-card">
-            <img src="terceira/Copilot_20250826_161556.png" alt="Hidratação" />
+            <img src="img/hidratação.png" alt="Hidratação" />
             <h3>Hidratação</h3>
             <p>Recupere a saúde dos fios com ativos nutritivos.</p>
             <button>Agendar</button>
           </div>
           <div class="service-card">
-            <img src="terceira/Copilot_20250826_161823.png" alt="Maquiagem" />
+            <img src="img/maquiagem.png" alt="Maquiagem" />
             <h3>Maquiagem</h3>
             <p>Realce sua beleza para qualquer ocasião.</p>
             <button>Agendar</button>
           </div>
           <div class="service-card">
-            <img src="terceira/Copilot_20250826_164418.png" alt="Design de Sobrancelhas" />
+            <img src="img/design.png" alt="Design de Sobrancelhas" />
             <h3>Design de Sobrancelhas</h3>
             <p>Expressão e simetria com técnicas precisas.</p>
             <button>Agendar</button>
           </div>
           <div class="service-card">
-            <img src="unhas.jpg" alt="Manicure e Pedicure" />
+            <img src="img/manicure.png" alt="Manicure e Pedicure" />
             <h3>Manicure e Pedicure</h3>
             <p>Unhas impecáveis com acabamento profissional.</p>
             <button>Agendar</button>
@@ -65,23 +69,49 @@
           <h2>Quem cuida de você</h2>
           <div class="team-grid">
             <div class="team-member">
-              <img src="terceira/Untitled Project.jpg" alt="Julia" />
+              <img src="img/Julia.jpg" alt="Julia" />
               <h4>Julia</h4>
               <p>Manicure e Pedicure</p>
             </div>
             <div class="team-member">
-              <img src="terceira/Untitled Project (1).jpg" alt="Laura" />
+              <img src="img/Laura.jpg" alt="Laura" />
               <h4>Laura</h4>
               <p>Hair Stylist</p>
             </div>
             <div class="team-member">
-              <img src="terceira/Untitled Project (2).jpg" alt="Eduarda" />
+              <img src="img/Eduarda.jpg" alt="Eduarda" />
               <h4>Eduarda</h4>
               <p>Maquiadora</p>
             </div>
           </div>
         </section>
       </main>
+
+      <!-- Modal de Agendamento -->
+      <div id="modal-agendamento" class="modal">
+        <div class="modal-content">
+          <span class="close-btn">&times;</span>
+          <h2>Agendar Serviço</h2>
+          <form id="form-agendamento">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="data">Data:</label>
+            <input type="date" id="data" name="data" required />
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required />
+
+            <label for="servico">Serviço:</label>
+            <input type="text" id="servico" name="servico" readonly />
+
+            <button type="submit">Confirmar Agendamento</button>
+          </form>
+        </div>
+      </div>
 
       <footer>
         © 2025 Studio Belle — Todos os direitos reservados

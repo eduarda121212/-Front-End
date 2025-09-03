@@ -105,3 +105,13 @@ footer {
 #qrcode-area {
   margin-top: 30px;
 }
+
+.remove-btn {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-top: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}

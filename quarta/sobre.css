@@ -89,8 +89,17 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 14px;
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.cart-icon a {
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.cart-icon {
+  margin-left: 20px;
 }
