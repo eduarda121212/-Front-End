@@ -77,6 +77,6 @@ A criação do site <strong>JLE Beauty</strong> atende à necessidade de digital
 <p>
 🔗 <a href="<h2>🎨 Link Figma</h2>
 <p>
-🔗 <a href="[https://www.figma.com/design/ExAgzHvHfgGb8YfUXKyow4/Sem-t%C3%ADtulo?node-id=0-1&m=dev&t=tn9qKYQeVlQcyc9F-1](https://docs.google.com/spreadsheets/d/1WTFWdRfV_dX3c9QDiGrF4VauHky6TRwpQV60u7pw7UQ/edit?usp=sharing)" target="_blank">Acesse o protótipo no Figma</a>
-</p>" target="_blank">Acesse o protótipo no Figma</a>
+🔗 <a href="https://docs.google.com/spreadsheets/d/1WTFWdRfV_dX3c9QDiGrF4VauHky6TRwpQV60u7pw7UQ/edit?usp=sharing" target="_blank">Acesse a planilha</a>
+</p>
 </p>
