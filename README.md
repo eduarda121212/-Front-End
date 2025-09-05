@@ -57,6 +57,17 @@ A criação do site <strong>JLE Beauty</strong> atende à necessidade de digital
   <li>📊 <strong>Chart.js:</strong> utilizado para exibir gráficos de desempenho, como vendas por categoria ou evolução de serviços ao longo do tempo</li>
 </ul>
 
+<h2>🖥️ Tecnologias Utilizadas</h2>
+  <ul>
+    <li>💻 <strong>HTML5</strong> – Estrutura semântica do site</li>
+    <li>🎨 <strong>CSS3</strong> – Estilização e responsividade</li>
+    <li>⚡ <strong>JavaScript (ES6+)</strong> – Funcionalidades dinâmicas e interações</li>
+    <li>📊 <strong>Chart.js</strong> – Gráficos de desempenho e estatísticas</li>
+    <li>🌐 <strong>APIs externas</strong> – Geolocalização, QR Code</li>
+    <li>🖌️ <strong>Figma</strong> – Protótipo e design visual</li>
+    <li>🔧 <strong>Git/GitHub</strong> – Controle de versão e hospedagem do código</li>
+  </ul>
+
 <h2>🎨 Link Figma</h2>
 <p>
 🔗 <a href="https://www.figma.com/design/ExAgzHvHfgGb8YfUXKyow4/Sem-t%C3%ADtulo?node-id=0-1&m=dev&t=tn9qKYQeVlQcyc9F-1" target="_blank">Acesse o protótipo no Figma</a>
