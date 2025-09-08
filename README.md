@@ -54,7 +54,7 @@ A criação do site <strong>JLE Beauty</strong> atende à necessidade de digital
 <ul>
   <li>📍 <strong>Geolocalização:</strong> exibe a localização do salão no site, permitindo que o usuário trace rotas e identifique pontos de referência</li>
   <li>💳 <strong>QR Code para pagamento:</strong> cada produto pode ser adquirido via QR Code, facilitando pagamentos rápidos e seguros</li>
-  <li>📊 <strong>Chart.js:</strong> utilizado para exibir gráficos de desempenho, como vendas por categoria ou evolução de serviços ao longo do tempo</li>
+  <li>📬 <strong>Formspree:</strong> utilizado para receber agendamentos de serviços diretamente pelo site, sem necessidade de backend próprio</li>
 </ul>
 
 <h2>🖥️ Tecnologias Utilizadas</h2>
@@ -62,8 +62,7 @@ A criação do site <strong>JLE Beauty</strong> atende à necessidade de digital
     <li>💻 <strong>HTML5</strong> – Estrutura semântica do site</li>
     <li>🎨 <strong>CSS3</strong> – Estilização e responsividade</li>
     <li>⚡ <strong>JavaScript (ES6+)</strong> – Funcionalidades dinâmicas e interações</li>
-    <li>📊 <strong>Chart.js</strong> – Gráficos de desempenho e estatísticas</li>
-    <li>🌐 <strong>APIs externas</strong> – Geolocalização, QR Code</li>
+    <li>🌐 <strong>APIs externas</strong> – Geolocalização, QR Codes Formspree</li>
     <li>🖌️ <strong>Figma</strong> – Protótipo e design visual</li>
     <li>🔧 <strong>Git/GitHub</strong> – Controle de versão e hospedagem do código</li>
   </ul>
